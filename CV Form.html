@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CV Form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form name="CV">
+			<h1>CV Form</h1>
+			Go to .. 
+			
+			<a href="#person">Personal Informaion</a>
+			<a href="#pic">Personal Picture</a>
+			<a href="#edu">Education</a>
+			<a href="#favor">Favorites</a>
+			<a href="#about">About You</a>
+			<br><br>
+			<hr>
+			<fieldset> 
+				<legend id ="pic"><strong>Personal Picture</strong></legend>
+				<br>
+				<label>Your Picture : </label>
+				<input type="file" name="picture">
+			</fieldset>
+		
+			<br>
+			<fieldset>
+				<legend id="person"><strong>Personal Informaion</strong></legend>
+				go to .. 
+				<a href="#pic">Personal Picture</a>
+				<a href="#edu">Education</a>
+				<a href="#favor">Favorites</a>
+				<a href="#about">About You</a>
+				<br><br>
+				<label>Name : </label>
+				<input type="text" name="name" placeholder="Your name">
+				<br><br>				
+				<label>Family : </label>
+				<input type="text" name="Fname" placeholder="Your family name">
+				<br><br>
+				<label>Birth Date : </label>
+				<input type="date" name="Birth" >
+				<br><br>				
+				<label>Birth Time : </label>
+				<input type="Time" name="Time">
+				<br><br>			
+				<label>Birth DateTime : </label>
+				<input type="datetime-local" name="dateTime">
+				<br><br>			
+				<fieldset>
+					<legend><strong>Contact</strong></legend>
+					<label> Email : </label>
+					<input type="Email" name="Email" placeholder="name@server.com">
+					<br><br>
+					<label> Phone : </label>
+					<input type="tel" name="tel" placeholder="(ddd)ddd-dddd">
+					<br><br>
+					<label> Personal Page : </label>
+					<input type="url" name="Personal Page" placeholder="http://server.com">
+					<br><br>
+				</fieldset><br>				
+			</fieldset><br><br>
+
+			<fieldset>
+				<legend id="edu"><strong>Eduction</strong></legend>
+				go to .. 
+				<a href="#pic">Personal Picture</a>
+				<a href="#person">Personal Informaion</a>
+				<a href="#favor">Favorites</a>
+				<a href="#about">About You</a>
+				
+				<br><br>
+				<label>Name Of Your School : </label>
+				<input type="text" name="school" placeholder="Name of your school">
+				<br><br>
+				<label>Telphone Of Your School : </label>
+				<input type="tel" name="schoolTel" placeholder="(ddd)ddd-dddd">
+				<br><br>
+				<label>Your Average in School : </label>
+				<input type="text" name="schoolAverage" placeholder="Your average">
+				<br><br>
+				<label>Email Of Your School : </label>
+				<input type="email" name="schoolEmail" placeholder="name@server.com">
+				<br><br>
+				<label>Name Of Your University : </label>
+				<input type="text" name="university" placeholder="Name of your university">
+				<br><br>
+				
+				<label>Email Of Your University: </label>
+				<input type="email" name="universityEmail" placeholder="name@server.com">
+				<br><br>
+				<label>Telphone Of Your University: </label>
+				<input type="tel" name="universityTel" placeholder="(ddd)ddd-dddd">
+				<br><br>
+				<label>Your Average In University : </label>
+				<input type="text" name="universityAverage" placeholder="Your average">
+			</fieldset>
+			<br><br>
+			<fieldset>
+				<legend id="favor"><strong>Favorites</strong></legend>
+				Go to .. 
+				<a href="#pic">Personal Picture</a>
+				<a href="#person">Personal Informaion</a>
+				<a href="#edu">Education</a>
+				<a href="#about">About You</a>
+				<br><br>
+				<label>Favorite Books : </label>
+				<input type="text" name=" Fbooks" placeholder="Your Favorite Books">
+				<br><br>
+				<label>Favorite Team : </label>
+				<input type="text" name=" Fteam" placeholder="Your Favorite Team">
+				<br><br>
+				<label>Favorite Sites : </label>
+				<input type="text" name=" Fsites" placeholder="your Favorite Sites">
+				<br><br>
+			</fieldset>
+			<br><br>
+			<fieldset>
+				<legend id="about"><strong>About You</strong></legend>
+				Go to .. 
+				<a href="#pic">Personal Picture</a>
+				<a href="#person">Personal Informaion</a>
+				<a href="#edu">Education</a>
+				<a href="#favor">Favorites</a>				
+				<br><br>
+				<br>
+				<label> About You :- </label>
+				<br><br>
+				<textarea rows="7" cols="35" placeholder="Express yourself in five lines"></textarea>
+			</fieldset>
+			<br><br>
+			<input type="reset" name="reset" value="reset" >
+			<input type="submit" name="submit" value="submit">
+
+
+		</form>	
+	</body>
+</html>
